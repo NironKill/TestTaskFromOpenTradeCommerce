@@ -1,0 +1,6 @@
+@JiraManager.WebAPI_HostAddress = http://localhost:5287
+
+GET {{JiraManager.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

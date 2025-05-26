@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.71.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Protos\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\JiraManager.Application\JiraManager.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\JiraManager.Infrastructure\JiraManager.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\JiraManager.Persistence\JiraManager.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
