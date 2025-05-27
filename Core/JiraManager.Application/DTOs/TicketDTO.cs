@@ -1,6 +1,6 @@
 ﻿namespace JiraManager.Application.DTOs
 {
-    internal class TicketDTO
+    public class TicketDTO
     {
         public string AccountId { get; set; }
         public string Summary { get; set; }

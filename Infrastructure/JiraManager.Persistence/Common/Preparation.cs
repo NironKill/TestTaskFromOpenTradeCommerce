@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace JiraManager.Persistence
+namespace JiraManager.Persistence.Common
 {
     public static class Preparation
     {
